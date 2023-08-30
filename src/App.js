@@ -13,7 +13,7 @@ import Exp from './components/Experience';
 import Project from './components/Project';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
-import { Link, scroller } from 'react-scroll';
+import { scroller } from 'react-scroll';
 
 
 
@@ -26,7 +26,7 @@ function App() {
     scroller.scrollTo(target, {
         duration: 50,
         smooth: true,
-        offset: 0 // Adjust this value to your design
+        offset: 0 
     });
 };
   return (

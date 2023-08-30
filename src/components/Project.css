@@ -56,6 +56,11 @@
    transition: 300ms transform ease-in-out;
 }
 
+.call-actionGroup {
+    display: flex;
+    align-items: center;
+}
+
 .project__cardImg {
     /* width: 30%; */
 
@@ -103,8 +108,13 @@
 @media screen and (max-width: 425px) {
     .project__card {
         padding: 1.5rem;
+    
     }
     .project__cardImg {
         margin-top: 1.5rem;
+    }
+    .call-actionGroup {
+        flex-direction: column;
+        align-items: start;
     }
 }

@@ -31,7 +31,10 @@ function Project() {
             <h2>SAT Tutoring Website</h2>
             <p>A responsive website built on the <mark>MERN stack</mark> for my friends’ SAT Tutoring Business that results in a <mark>30% increase</mark> in inquiries and conversations. The website supports <mark>Facebook Messenger Integration</mark> and includes an user-friendly posting feature for the business owner to <mark>edit and update posts.</mark></p>
             
-            <a id = "call-action" href='https://github.com/huongthaoh/sat-tutoring-web' target= "_blank">see more <ArrowForwardIcon/></a>
+            <div className='call-actionGroup'>
+              <a id = "call-action" href='https://chisat.com' target= "_blank">see page <ArrowForwardIcon/></a>
+              <a id = "call-action" href='https://github.com/huongthaoh/sat-web' target= "_blank">github </a>
+            </div>
           </div>
 
           <div className = "project__cardImg">
@@ -48,9 +51,9 @@ function Project() {
               <a id = "call-action" href=''>see more <ArrowForwardIcon/></a>
             </div>
             
-            <div className = "project__cardImg">
-              {/* <img src=""  alt="" /> */}
-            </div>
+            {/* <div className = "project__cardImg">
+              <img src=""  alt="" />
+            </div> */}
           </div>
 
           

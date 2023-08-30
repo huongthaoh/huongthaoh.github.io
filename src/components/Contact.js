@@ -17,23 +17,27 @@ function Contact() {
                 <input type="hidden" name="_captcha" value = "false"/>
                 <input type="hidden" name="_next" value="http://localhost:3000" />
 
-                <div class = "col-md-4">
-                    <label for="inputName">Your Name</label>
-                    <input type="text" class = "form-control" name="name" id = "inputName"/>    
-                </div>
-                <div class = "col-md-6">
-                    <label for="inputEmail">Your email address</label>
-                    <input type="email" required class = "form-control" name="email" id = "inputEmail"/>  
-                </div>
-                <div class = "col-md-10">
-                    <label for="inputMessage">Your message</label>
-                    <textarea rows="5" required class = "form-control" name="message" id = "inputMessage" />  
-                </div>
-                <div class="w-100"></div>
-                <div class = "col-10">
-                    <button type="submit" className = "formBtn">Submit</button>
+                <div className="home-formSectionDouble">
+                <div className="home-formSection">
+                    <label for="inputName">Name</label>
+                    <input type="text" class = "form-control" name="name" id = "inputName"/>
                 </div>
 
+                <div className="home-formSection">
+                    <label for="inputEmail">Email address</label>
+                    <input type="email" required class = "form-control" name="email" id = "inputEmail"/>  
+                </div>
+                
+            </div>
+
+            <div className="home-formSection">
+                <label for="inputMessage">Message</label>
+                <textarea rows="5" required class = "form-control" name="message" id = "inputMessage" />  
+            </div>
+            
+            <div className="home-formSection">
+            <button type="submit" className = "formBtn">Submit</button>
+            </div>
                 
             </form>
             </div>
